@@ -120,6 +120,7 @@ public class Harmoshop extends JavaPlugin implements Listener, InventoryHandler 
 
     private void openShop(Player player) {
         String title = shopConfig.getString("title", "Shop");
+        title = ChatColor.translateAlternateColorCodes('&', title); // Translate color codes
         Inventory shopInventory = Bukkit.createInventory(player, 54, title);
 
         for (Map.Entry<Integer, ShopItem> entry : shopItems.entrySet()) {
