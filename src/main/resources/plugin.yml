@@ -1,0 +1,22 @@
+name: Harmoshop
+main: me.afelia.harmoshop.Harmoshop
+version: 1.0
+author: Elias
+description: A simple shop add-on plugin for AfeliaRPG
+api-version: 1.20
+depends: [AfeliaRPG]
+commands:
+  hshop:
+    description: Open the shop GUI
+    usage: /hshop
+  harmoshop:
+    description: Open the shop GUI
+    usage: /harmoshop
+  hshopreload:
+    description: Reload the shop configuration
+    usage: /hshopreload
+permissions:
+  harmoshop.reload:
+    description: Allows the player to reload the shop configuration
+    default: op
+load: STARTUP

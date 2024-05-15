@@ -1,0 +1,42 @@
+title: "          Magazin D'Harmonie          "
+shop:
+  item1:
+    SLOT: 0
+    ICON: DIAMOND_SWORD
+    DISPLAY_NAME: THISISACUSTOMNAME
+    LORE:
+      - 'THI IS A LORE'
+      - "&a&lthis is a custom lore"
+    CUSTOM_MODEL_DATA: 0
+    PRICE_IN_HARMONIES: 10
+    COMMAND_ISSUED_ON_BOUGHT: give %player% diamond_sword
+  item2:
+    SLOT: 2
+    ICON: PAPER
+    DISPLAY_NAME: '&ETHISISACUSTOMNAME'
+    LORE:
+      - 'THI IS A LORE'
+      - "&a&lthis is a custom lore"
+    CUSTOM_MODEL_DATA: 10208
+    PRICE_IN_HARMONIES: 10
+    COMMAND_ISSUED_ON_BOUGHT: give %player% diamond
+  item3:
+    SLOT: 4
+    ICON: GOLD_INGOT
+    DISPLAY_NAME: '&cTHISISACUSTOMNAME'
+    LORE:
+      - 'THI IS A LORE'
+      - "&a&lthis is a custom lore"
+    CUSTOM_MODEL_DATA: 0
+    PRICE_IN_HARMONIES: 15
+    COMMAND_ISSUED_ON_BOUGHT: give %player% gold_ingot
+  item4:
+    SLOT: 5
+    ICON: IRON_INGOT
+    DISPLAY_NAME: '&DTHISISACUSTOMNAME'
+    LORE:
+      - 'THI IS A LORE'
+      - "&a&lthis is a custom lore"
+    CUSTOM_MODEL_DATA: 0
+    PRICE_IN_HARMONIES: 15
+    COMMAND_ISSUED_ON_BOUGHT: give %player% iron_ingot
